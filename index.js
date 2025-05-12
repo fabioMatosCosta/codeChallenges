@@ -28,10 +28,18 @@
 // console.log('Input: 7, Output: 3331148.800 = ', height(7));
 // console.log('Input: 0, Output: 2000000.000 = ', height(0));
 
-/* What comes after */
-import comes_after from './challenges/what_cames_after.js';
+// /* What comes after */
+// import comes_after from './challenges/what_cames_after.js';
 
-console.log('Input: "are you really learning Ruby?", Output:', comes_after('are you really learning Ruby?', 'r'));
-console.log('Input: "Katy Perry is on the radio!", Output:', comes_after('Katy Perry is on the radio!', 'r'));
-console.log('Input: "Pirates say arrrrrrrrr.", Output:', comes_after('Pirates say arrrrrrrrr.', 'r'));
-console.log('Input: "r8 your friend", Output:', comes_after('r8 your friend', 'r'));
+// console.log('Input: "are you really learning Ruby?", Output:', comes_after('are you really learning Ruby?', 'r'));
+// console.log('Input: "Katy Perry is on the radio!", Output:', comes_after('Katy Perry is on the radio!', 'r'));
+// console.log('Input: "Pirates say arrrrrrrrr.", Output:', comes_after('Pirates say arrrrrrrrr.', 'r'));
+// console.log('Input: "r8 your friend", Output:', comes_after('r8 your friend', 'r'));
+
+/* Dreidel Dreidel */
+import gamble from './challenges/dreidel_dreidel.js';
+
+console.log('Input: ["Hei", "Shin"], 10, 20, Output:', gamble(['Hei', 'Shin'], 10, 20));
+console.log('Input: ["Hei", "Hei"], 10, 20, Output:', gamble(['Hei', 'Hei'], 10, 20));
+console.log('Input: ["Shin", "Shin", "Hei"], 10, 20, Output:', gamble(['Shin', 'Shin', 'Hei'], 10, 20));
+console.log('Input: ["Nun", "Nun", "Shin", "Gimel", "Shin"], 10, 20, Output:', gamble(['Nun', 'Nun', 'Shin', 'Gimel', 'Shin'], 10, 20));
